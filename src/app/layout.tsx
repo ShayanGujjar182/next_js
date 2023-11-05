@@ -19,10 +19,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header className='flex gap-5 p-6 bg-slate-950 text-white'>
+          <Link href="/">Home</Link>
           <Link href="/blog">Blog</Link>
           <Link href="/contact-us">Contact Us</Link>
-          <Link href="/dashboard">Dashboard</Link>
           <Link href="/dashboard/setting">Setting</Link>
+          <Link href="/dashboard">Dashboard</Link>
           <Link href="/about">About</Link>
         </header>
         {children}</body>
